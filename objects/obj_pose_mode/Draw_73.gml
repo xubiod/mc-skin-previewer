@@ -1,3 +1,3 @@
 /// @description [code action]
 
-draw_tooltip(string(global.pose_mode));
+draw_tooltip("Toggles Pose Mode. You can translate\nand rotate every part to your liking.");
