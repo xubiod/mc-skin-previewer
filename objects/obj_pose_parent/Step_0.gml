@@ -1,6 +1,7 @@
 /// @description [code action]
 
 if (!mouse_in) exit;
+if (global.pose_mode == false) exit;
 
 frames++;
 if (frames % 5 != 0) exit;

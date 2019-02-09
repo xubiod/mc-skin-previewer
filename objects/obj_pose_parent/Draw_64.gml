@@ -1,5 +1,6 @@
 /// @description [code action]
 if (!instance_exists(obj_renderer)) exit;
+if (global.pose_mode == false) exit;
 da = variable_global_get(pose_array);
 
 var wid = camera_get_view_width(0);
